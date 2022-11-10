@@ -6,9 +6,8 @@ final class ModelDTO<T: Model>: Content {
     var data: T
     var category: String
     
-    init (from foodChoice: T) {
-        data = foodChoice
+    init (from model: T) {
+        data = model
         category = String(describing: T.self)
     }
 }
-

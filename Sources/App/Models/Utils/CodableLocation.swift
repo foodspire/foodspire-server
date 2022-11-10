@@ -1,8 +1,8 @@
 struct CodableLocation: Codable {
-    let latitude: Float
-    let longitude: Float
-    let altitude: Float
-    init(latitude: Float, longitude: Float, altitude: Float) {
+    let latitude: Double
+    let longitude: Double
+    let altitude: Double
+    init(latitude: Double, longitude: Double, altitude: Double) {
         self.latitude = latitude
         self.longitude = longitude
         self.altitude = altitude
